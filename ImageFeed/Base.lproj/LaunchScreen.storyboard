@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="5L3-XX-Ao2">
-                                <rect key="frame" x="159" y="387" width="75" height="78"/>
+                                <rect key="frame" x="160.33333333333334" y="388.33333333333331" width="72.666666666666657" height="75.333333333333314"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.10588235294117647" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="5L3-XX-Ao2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="X8D-FE-FkJ"/>
                             <constraint firstItem="5L3-XX-Ao2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jcL-UH-nip"/>
@@ -34,6 +34,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Vector" width="75" height="78"/>
+        <image name="Vector" width="72.666664123535156" height="75.333335876464844"/>
     </resources>
 </document>
