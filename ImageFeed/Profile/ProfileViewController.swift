@@ -10,13 +10,16 @@ final class ProfileViewController: UIViewController {
         avatarImageView.translatesAutoresizingMaskIntoConstraints = false
         return avatarImageView
     }()
+    
     private let nameLabel: UILabel = {
         let nameLabel = UILabel()
         nameLabel.text = "Екатерина Новикова"
         nameLabel.font = UIFont.systemFont(ofSize: 23, weight: .bold)
         nameLabel.textColor = #colorLiteral(red: 1, green: 0.9999999404, blue: 1, alpha: 1)
+        nameLabel.translatesAutoresizingMaskIntoConstraints = false
         return nameLabel
     }()
+    
     private let loginNameLabel: UILabel = {
         let loginNameLabel = UILabel()
         loginNameLabel.text = "@ekaterina_nov"
@@ -25,6 +28,7 @@ final class ProfileViewController: UIViewController {
         loginNameLabel.translatesAutoresizingMaskIntoConstraints = false
         return loginNameLabel
     }()
+    
     private var descriptionLabel: UILabel = {
         let descriptionLabel = UILabel()
         descriptionLabel.text = "Hello, World!"
@@ -33,6 +37,7 @@ final class ProfileViewController: UIViewController {
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         return descriptionLabel
     }()
+    
     private var logoutButton: UIButton = {
         let logoutButton = UIButton()
         logoutButton.setImage(UIImage(named: "logout_button"), for: .normal)
