@@ -21,6 +21,7 @@
 		4AB91FC02A51BB5A00BBBC8C /* OAuth2Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB91FBF2A51BB5A00BBBC8C /* OAuth2Service.swift */; };
 		4AB91FC52A51CC5100BBBC8C /* OAuth2TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB91FC42A51CC5100BBBC8C /* OAuth2TokenStorage.swift */; };
 		4AB91FC72A544A0B00BBBC8C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB91FC62A544A0B00BBBC8C /* SplashViewController.swift */; };
+		4AB91FC92A560B0700BBBC8C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB91FC82A560B0700BBBC8C /* NavigationController.swift */; };
 		4AEB0D982A362C03001E3C14 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB0D972A362C03001E3C14 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		4AB91FBF2A51BB5A00BBBC8C /* OAuth2Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2Service.swift; sourceTree = "<group>"; };
 		4AB91FC42A51CC5100BBBC8C /* OAuth2TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2TokenStorage.swift; sourceTree = "<group>"; };
 		4AB91FC62A544A0B00BBBC8C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4AB91FC82A560B0700BBBC8C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		4AEB0D972A362C03001E3C14 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				4A3C90402A24EB6000F1E3F4 /* Assets.xcassets */,
 				4A3C90422A24EB6000F1E3F4 /* LaunchScreen.storyboard */,
 				4A3C90452A24EB6000F1E3F4 /* Info.plist */,
+				4AB91FC82A560B0700BBBC8C /* NavigationController.swift */,
 			);
 			path = ImageFeed;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				4A3C90382A24EB5E00F1E3F4 /* AppDelegate.swift in Sources */,
 				4AB91F7D2A4C7B3B00BBBC8C /* AuthViewController.swift in Sources */,
 				4AB91F7B2A49F04F00BBBC8C /* Constants.swift in Sources */,
+				4AB91FC92A560B0700BBBC8C /* NavigationController.swift in Sources */,
 				4A06052C2A38C6FD0004318F /* SingleImageViewController.swift in Sources */,
 				4AB91F802A4C841C00BBBC8C /* WebViewViewController.swift in Sources */,
 				4AB91FC02A51BB5A00BBBC8C /* OAuth2Service.swift in Sources */,
@@ -353,6 +357,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -385,6 +390,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
