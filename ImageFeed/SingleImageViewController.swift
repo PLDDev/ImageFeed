@@ -25,7 +25,6 @@ final class SingleImageViewController: UIViewController {
         self.present(share, animated: true, completion: nil)
     }
     
-    
     @IBAction private func didTapBackButton() {
         dismiss(animated: true, completion: nil)
     }
